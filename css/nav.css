@@ -35,7 +35,7 @@
 
 #cssmenu {
   font-family: Montserrat, sans-serif;
-  background: rgba(135, 132, 129, .85);
+  background: rgba(5, 102, 141, .8);
   position: fixed;
   top: 0px;
   width: 100%;
@@ -47,6 +47,17 @@
 #cssmenu img{
   width: 30px;
 }
+
+#cssmenu svg{
+  width: 30px;
+}
+
+#cssmenu a svg:hover path#LinkedIn,
+#cssmenu a svg:hover path#Github,
+#cssmenu a svg:hover path#Twitter {
+  fill: #F46F79;
+}
+
 
 #cssmenu > ul > li {
   float: left;
@@ -67,7 +78,7 @@
   float: right;
 }
 #cssmenu > ul > li > a {
-    color: #000;
+    color: #fff;
     display: inline-block;
     font-size: 12px;
     font-weight: 700;
@@ -84,7 +95,7 @@
 }
 
 #cssmenu > ul > li:hover > a {
-  color: #ffffff;
+  color: #F25D68;
 }
 
 #cssmenu > ul > li.has-sub > a {
@@ -210,7 +221,6 @@
   top: 17px;
   height: 0;
 }
-
 
 /* Starting reponsive menu  */
 @media all and (max-width: 790px) {

@@ -84,10 +84,6 @@ a:hover {
   color: #B25E09;
 }
 
-.mp3-player {
-	margin: 10px 0;
-}
-
 b, strong {
     font-weight: 900;
 }
@@ -131,6 +127,13 @@ li {
 
 .widget ul li {
     list-style: none;
+}
+
+nav.post-nav {
+    font-size: 20px;
+    padding: 9px 0;
+    font-family: sans-serif;
+    border-top: 1px #000 solid;
 }
 
 dl {
@@ -329,7 +332,7 @@ div.dev-icons img {
 
 /*Images*/
  section.module.parallax-1 {
-  background-image: url("images/Artistwall_Product.jpg");
+  background-image: url("images/browniePanTop4.jpg");
 }
 
 
@@ -553,6 +556,10 @@ footer {
     /* This keeps header div from collapsing */
     header{
         overflow: auto;
+    }
+
+    sidebar {
+        width: 100%
     }
 
     /* ----pages with sidebars Media Q styles----END */
