@@ -2,7 +2,7 @@
 
 <section class="module parallax parallax-1">
   <div class="container">
-   <h2 class="title"><?php the_title(); ?></h2>
+   <h2 class="title"><?php bloginfo('name'); ?></h2>
   </div>
 </section>
 
